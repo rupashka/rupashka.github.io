@@ -1,0 +1,241 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url( "img/patterndots.png" );
+}
+
+h1 {
+    font-size: 16pt;
+    font-weight: normal;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+table {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: #555;
+}
+
+a:link {
+    font-weight: bold;
+    color: #333;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #333;
+}
+
+a:visited {
+    font-weight: bold;
+    color: #555;
+}
+
+p {
+    text-indent: 20px;
+}
+
+p.faq {
+    text-indent: 0;
+}
+
+pre {
+    margin: 0;
+}
+
+.cell {
+    background: #fff;
+    vertical-align: top;
+}
+
+#page {
+    width: 800px;
+    height: 100%;
+    border: 0;
+    margin-left: 160px;
+}
+
+#header {
+    width: 790px;
+    height: 124px;
+    background: url( "img/spb.png" );
+    padding: 3px;
+}
+
+#header a img  {
+    border: 0;
+    padding: 3px;
+    vertical-align: text-bottom;
+}
+
+#header a img.selected {
+    padding: 2px;
+    border: 1px solid #fff;
+}
+
+#vertfiller {
+    height: 100%;
+}
+
+#navigation {
+    width: 160px;
+    margin: 20px 10px 20px 10px;
+    vertical-align: top;
+}
+
+#navigation ul {
+    margin: 0;
+    padding: 0 0 20px 0;
+    list-style-type: none;
+}
+
+#navigation li {
+    margin-bottom: 10px;
+}
+
+#navigation li.submenu {
+    margin-left: 20px;
+}
+
+#content {
+    width: 574px;
+    margin: 20px;
+    vertical-align: top;
+}
+
+#contentwithoutnav {
+    width: 756px;
+    margin: 20px;
+    vertical-align: top;
+}
+
+#footer {
+    width: 776px;
+    margin: 10px;
+    text-align: right;
+}
+
+/* seXually table */
+.xtable {
+    border: 1px solid;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.xtable .xheader {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    font-weight: bold;
+    text-align: center;
+}
+
+.xtable .xcell {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    vertical-align: top;
+}
+
+.xtable .xhighlightrow {
+    background: #ddd;
+}
+
+.forumnewmsg {
+}
+
+.forummsg {
+    border: 1px solid #555;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #ddd;
+}
+
+.forummsg .author {
+    padding: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.forummsg .quotelbl {
+    padding: 0 0 0 20px;
+    font-style: italic;
+}
+
+.forummsg .quote {
+    padding: 0 0 10px 20px;
+    font-style: italic;
+}
+
+.forummsg .message {
+}
+
+.forummsg .links {
+    text-align: right;
+}
+
+#forumnav ul {
+    list-style-type: none;
+}
+
+#forumnav li {
+    display: inline;
+}
+
+.messagequote {
+    border: 1px solid #555;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: #ddd;
+}
+
+.messagequote .quotelbl {
+    font-style: italic;
+}
+
+.screenshot {
+    margin: 10px 0 10px 10px;
+}
+
+.code {
+    font-family: monospace;
+    font-size: 12pt;
+    font-weight: normal;
+    font-style: normal;
+    color: #555;
+}
+
+/* Simple table */
+.stable {
+    border: 0;
+}
+
+.stable .event {
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.stable .cell {
+    vertical-align: top;
+}
+
+/* Today combination table */
+.ttable {
+    border: 1px dotted;
+}
+
+/* Online games */
+.greenbox {
+    border: 1px solid;
+    margin: 20px;
+    padding: 10px;
+    background: #90ee90;
+    color: #000;
+}

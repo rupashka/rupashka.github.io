@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Checkersland extension</title>
+  <link href="/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<table id="page" cellpadding="0" cellspacing="2">
+  <tr>
+    <td colspan="2" class="cell">
+
+
+      <div id="header">
+        <table border="0">
+          <tr>
+            <td width="100%">
+            </td>
+          </tr>
+        </table>
+      </div>
+
+    </td>
+  </tr>
+  <tr id="vertfiller">
+    <td class="cell">
+
+
+      <div id="navigation">
+        <ul>
+          <li><a href="/index.html">Main page</a></li>
+          <li><a href="/download.html">Programs</a></li>
+          <li class="submenu"><a href="/download/pc.html">PC</a></li>
+          <li class="submenu"><a href="/download/android.html">Android</a></li>
+          <li class="submenu"><a href="/download/androidonline.html">Android Online</a></li>
+          <li class="submenu"><a href="/download/androidrussian.html">Android Russian</a></li>
+          <li class="submenu"><a href="/download/endgames.html">Endgames</a></li>
+          <li class="submenu"><a href="/download/extension.html">Extension</a></li>
+        </ul>
+      </div>
+
+    </td>
+    <td class="cell">
+      <div id="content">
+        <h1>
+          Checkersland extension.
+        </h1>
+
+        <h2>
+          Content
+        </h2>
+
+        <ol>
+          <li>
+            <a href="#download">Short software description and download section</a>
+
+            <ul>
+              <li>
+                <a href="#lafs">Look and feels</a>
+              </li>
+
+              <li>
+                <a href="#i18n">Interface of the program translation</a>
+              </li>
+
+              <li>
+                <a href="#skins">Board skins</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#pdn">PDN format</a>
+          </li>
+        </ol>
+
+        <h2>
+          <a id="download"></a>Short software description and download section.
+        </h2>
+
+        <p>
+          The extension is an archive, that shows many features and additional
+          functionality of the <a href="/download/pc.html">Checkersland PC</a> program.
+          The extension works on all supported Operation Systems and contains
+          the next: three external look and feels, internationalization files,
+          PDN files and an example of skin creation.
+        </p>
+
+        <p>
+          Software information:
+        </p>
+
+        <ul>
+          <li>
+            Version: 2020.11.12
+          </li>
+        </ul>
+
+        <p>
+          Download: <a href="/download/extension.zip">extension.zip</a>
+        </p>
+
+        <h2>
+          <a id="lafs"></a>Look and feels.
+        </h2>
+
+        <p>
+          There are a lot of look and feels (LaF later) for programs written in java.
+          The <b>lafs</b> directory contains the most known three LaFs:
+          jgoodies, napkin and substance. If you run a command file
+          with the bat extension (on Windows) or with the sh extension (for
+          other Operation Systems), you will see the Checkersland program
+          with a new interface style.
+        </p>
+
+        <p>
+          LaF: jgoodies
+        </p>
+
+        <img src="/img/laf_jgoodies.png" alt="" class="screenshot">
+
+        <p>
+          LaF: napkin
+        </p>
+
+        <img src="/img/laf_napkin.png" alt="" class="screenshot">
+
+        <p>
+          LaF: substance
+        </p>
+
+        <img src="/img/laf_substance.png" alt="" class="screenshot">
+
+        <h2>
+          <a id="i18n"></a>Interface of the program translation.
+        </h2>
+
+        <p>
+          After every start the
+          program searchs in the <b>languages</b> directory for files with new
+          languages and loads them. Name of files should be like
+          <b>i18n_XX.properties</b> (here XX is a
+          <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes">two chars language code</a>).
+          A file content should be in utf-8 encoding. All successfully downloaded
+          languages will be added into the language list of the settings window.
+          The easiest way to create new translation is to clone and change
+          the <b>i18n_en.properties</b> file, that can be found in <a href="#download">extension</a>.
+        </p>
+
+        <h2>
+          <a id="skins"></a>Board skins.
+        </h2>
+
+        <p>
+          After every start the Checkersland program loads skins from
+          the <b>skins</b> directory. Every skin should be in a
+          separated directory and consist of a set of images and
+          the <b>skin.ini</b> file with additional settings.
+          <a href="#download">Extension</a> contains
+          a skin example with detail information. After loading all loaded
+          skins are available in the list of skin types.
+        </p>
+
+        <p>Skin: example</p>
+
+        <img src="/img/skin_example.png" alt="" class="screenshot">
+
+        <p>Skin: web</p>
+
+        <img src="/img/skin_web.png" alt="" class="screenshot">
+
+        <h2>
+          <a id="pdn"></a>PDN format.
+        </h2>
+
+        <p>
+          PDN (Portable Draughts Notation) is the most popular
+          format for storing games in text files. It allows
+          to keep a lot of games in a single file. Moreover every
+          game may contain many additional information:
+          players' names, the name of tournament, the place and date of the game etc.
+          The details of this format are available here:
+          <a href="https://en.wikipedia.org/wiki/Portable_Draughts_Notation">https://en.wikipedia.org/wiki/Portable_Draughts_Notation</a>.
+        </p>
+
+        <p>
+          The Checkersland program allows to watch a loaded PDN file
+          as a list of games and edit it. Some games in the games list
+          can be highlighted: red - game data is incomplete (e.g.
+          kind of checkers is absent) or game history is invalid,
+          blue - game data was changed and therefore will be modified
+          while saving.
+        </p>
+
+        <p>
+          There is special view mode of round-robin tournaments. The program
+          can restore crosstable of tournament and paints it in
+          initial state. An example with such tournaments
+          is available in the <b>pdn/towers/SPb_open.pdn</b> file
+          of <a href="#download">extension</a>.
+          The program allows to load any game from the list or from the
+          crosstable, watch it, edit and store changings.
+        </p>
+
+        <p>
+          There are many programs that support PDN format. Also there are huge
+          number of PDN files for different kind of checkers. Usually, such files
+          don't contain information about destination kind of checkers.
+          In this case all games will be highlighted by red color after file loading.
+          To avoid this you should set a default kind of checkers for PDN files
+          (Options &gt; Settings &gt; PDN files &gt; Game type). This setting
+          doesn't affect storing of PND files, and kind of checkers is always stored.
+        </p>
+
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="cell">
+
+
+      <div id="footer">
+        (c) Pavel Porvatov. Email: <span>support</span>@<span>checkersland.com</span><br><br>
+        <a href="/privacypolicy.html">Privacy Policy</a>
+      </div>
+
+    </td>
+  </tr>
+</table>
+</body>
+</html>
